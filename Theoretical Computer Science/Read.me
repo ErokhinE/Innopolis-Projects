@@ -1,6 +1,6 @@
-First Task File FSA:
+First File FSA:
 
-Implement an FSA validator. Given an FSA description in the fsa.txt (see input file format) your program should output the result.txt containing an error description (see validation result) or a report, indicating if FSA is complete (or incomplete) and warning (see warning messages) if any. Warnings should be sorted according to their code. 
+Implementing an FSA validator. Program outputs the result.txt containing an error description (see validation result) or a report, indicating if FSA is complete (or incomplete) and warning (see warning messages) if any.
 Validation result
 Errors:
 E1: A state 's' is not in the set of states
@@ -22,3 +22,17 @@ init.st=[s]	  // s ∈ states
 fin.st=[s1,s2,...]	  // s1, s2 ∈ states
 trans=[s1>a>s2,... ]
   // s1,s2,...∈ states; a ∈ alpha
+
+Second Task File DFSA:
+Implementing a DFSA to RegExp Translator. Given an DFSA description in the input.txt (see input file format) program should output to console an error description (see validation errors) OR a regular expression that corresponds to the given DFSA. 
+
+Input
+states=[s1,s2,...] // s1 , s2, ... ∈ latin letters, words and numbers
+
+alpha=[a1,a2,...] // a1 , a2, ... ∈ latin letters, words, numbers and character '_'(underscore)
+
+initial=[s] // s ∈ states
+
+accepting=[s1,s2,...] // s1, s2 ∈ states
+
+trans=[s1>a>s2,...] // s1,s2,...∈ states; a ∈ alpha
