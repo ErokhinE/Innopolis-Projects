@@ -1,21 +1,31 @@
 Task 1:Matrix Algebra:
 
 In C++ programming language write an OOP program that allows to:
+
 ● store matrices n by m (create a necessary class);
+
 ● input / output from input.txt and output.txt;
+
 ● assign one matrix to another (overload = operator);
+
 ● add two matrices A and B (overload the + operator, prints the error message);
+
 ● subtract two matrices A and B (overload the - operator, prints the error message
 if needed);
+
 ● multiply two matrices A and B (overload the * operator, prints the error
 message if needed);
+
 ● transpose matrix.
 Input format (look at the examles)
 The input contains, in the same order:
+
 ● The sizes of an A matrix in 2 different rows. Then in a new line the values of
 the elements A.
+
 ● The sizes of a B matrix in 2 different rows. Then in a new line the values of the
 elements B.
+
 ● The sizes of a C matrix in 2 different rows. Then in a new line the values of the
 elements C.
 We are working under the assumption of the correctness of the input data.
