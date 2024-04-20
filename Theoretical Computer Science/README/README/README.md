@@ -24,6 +24,7 @@ trans=[s1>a>s2,... ]
   // s1,s2,...∈ states; a ∈ alpha
 
 Second Task File DFSA:
+
 Implementing a DFSA to RegExp Translator. Given an DFSA description in the input.txt (see input file format) program should output to console an error description (see validation errors) OR a regular expression that corresponds to the given DFSA. 
 
 Input
