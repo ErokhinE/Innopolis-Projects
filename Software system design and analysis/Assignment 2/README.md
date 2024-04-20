@@ -48,5 +48,4 @@ inmates you need to risk their lives for the purpose of accurately and definitel
 determining the poisonous flagon within the 48 hours limit. (20) marks
 Explain your algorithm with 1-2 comments in the code. (10) marks
 0 <= 𝑁 <= 1. 83 * 10^19
-Input and output are a single integer, examples:
 
