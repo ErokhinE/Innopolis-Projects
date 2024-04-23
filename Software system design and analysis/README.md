@@ -6,3 +6,7 @@ skills and knowledge.
 Assignment 2:
 
 Overloading operators and matrix Algebra
+
+Assignment 3:
+
+Solving linear eqations
