@@ -1,0 +1,4 @@
+*.java linguist-detectable=true
+*.с linguist-detectable=true
+*.c++ linguist-detectable=true
+*.python linguist-detectable=true
